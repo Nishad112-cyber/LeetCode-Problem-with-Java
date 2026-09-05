@@ -11,7 +11,7 @@ public class JumpGame {
                 return false;
             }
 
-            // Maximum reachable index update karo
+            // Maximum reachable index update "
             maxReach = Math.max(maxReach, i + nums[i]);
 
             // Last index tak pahunch gaye
