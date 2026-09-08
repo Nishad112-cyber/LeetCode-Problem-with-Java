@@ -11,7 +11,7 @@ public class Remove_Element {
 
     }
     public static void main(String[] args) {
-        int nums[]= {2,3,3,2,2};
+        int nums[]= {2,3,3,2,2,5,5};
         System.out.print(removeElement(nums, 3)+"");
     }
 }
