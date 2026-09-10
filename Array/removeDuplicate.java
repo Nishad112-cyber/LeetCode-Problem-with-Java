@@ -14,7 +14,7 @@ class removeDplicate {
         return k;
     }
     public static void main(String[] args) {
-           int nums[] = {1,1,1,2,2,2,2,5,5,5,6};
+           int nums[] = {1,1,1,2,2,2,2,5,5,5,6,6,6,6,6,6,6,6};
         removeDplicate obj = new removeDplicate();
 
         int k = obj.removeDuplicates(nums);
