@@ -10,7 +10,7 @@ public class Remove_Duplicate {
         return k;
     }
     public static void main(String[] args) {
-        int nums[] ={1,1,1,2,2,3,3,4,5,5,5};
+        int nums[] ={1,1,1,2,2,3,3,4,5,5,5,6,7,7,7,7};
         System.out.println(DuplicateRemove(nums));
     }
 }
