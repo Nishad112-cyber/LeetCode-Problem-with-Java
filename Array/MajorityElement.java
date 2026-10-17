@@ -17,7 +17,7 @@ public class MajorityElement {
        return major;
     }
     public static void main(String[] args) {
-        int nums[]= {1,1,1,2,2};
+        int nums[]= {1,1,1,2,2,3,3,3,3,3};
      int Ans=   MajorElement(nums);
         System.out.print(" this is major element : "+Ans);
     }
