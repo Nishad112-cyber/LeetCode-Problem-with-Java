@@ -20,7 +20,7 @@ class BuySell {
         
     }
     public static void main(String[] args) {
-        int prices[] = {7, 1, 5, 3, 6}; 
+        int prices[] = {7, 1, 5, 3, 6,8}; 
        System.out.println(maxProfit(prices));
     }
 }
