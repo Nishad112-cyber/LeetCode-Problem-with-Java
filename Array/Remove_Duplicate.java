@@ -1,5 +1,8 @@
 public class Remove_Duplicate {
     public static int DuplicateRemove(int nums[]){
+        if(nums.length == 0){
+            return 0;
+        }
         int k=1;
         for(int i=1; i<nums.length; i++){
             if(nums[i] != nums[i-1]){
@@ -10,7 +13,7 @@ public class Remove_Duplicate {
         return k;
     }
     public static void main(String[] args) {
-        int nums[] ={1,1,1,2,2,3,3,4,5,5,5};
+        int nums[] ={1,2,2,3,4,4,5,5,6};
         System.out.println(DuplicateRemove(nums));
     }
 }
