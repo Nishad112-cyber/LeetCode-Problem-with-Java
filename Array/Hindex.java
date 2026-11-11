@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Hindex {
-    public int hIndex(int[] citations) {
+    public static int hIndex(int[] citations) {
 
         Arrays.sort(citations);
 
@@ -13,10 +13,19 @@ class Hindex {
             int papers = n - i;
 
             if (citations[i] >= papers) {
-                hIndex = papers;
+                hIndex = Math.max(hIndex, papers);
             }
         }
 
         return hIndex;
+    }
+
+    public static void main(String[] args) {
+
+        int[] citations = {3, 0, 6, 1, 5};
+
+        int result = hIndex(citations);
+
+        System.out.println("H-Index: " + result);
     }
 }
