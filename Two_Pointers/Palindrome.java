@@ -26,7 +26,7 @@ public class Palindrome {
         return true;
     }
     public static void main(String[] args) {
-        String str= "a man, a plan, a canal: panama";
+        String str= " a plan, a canal: panama";
         
         if(!isPalindrome(str)){
             System.out.println("false");
